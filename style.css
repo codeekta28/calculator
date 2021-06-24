@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 40px;
+    
+}
+.border{
+   border: 2px solid red;
+}
+.text-center{
+    text-align: center;
+}
+.calculator{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 28px;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+}
+.yellowbutton,.greyButtonFirst,.greyButtonSecond,.greyButtonThird,.red-btn-row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.btn,.btn-danger,.btn-success{
+    padding: 1rem;
+    font-size: 39px;
+    font-weight: 500;
+    border: 1px solid gray;
+    
+}
+.buttons{
+    transition: all 0.5s linear;
+}
+button{
+    transition: all 2s ease;
+}
+.btn:hover{
+    background-color: rgb(108, 108, 214);
+}
+.btn-yellow{
+    background-color: rgb(233, 192, 8);
+    color: white;
+}
+.btn-grey{
+    background-color: rgb(230, 225, 225);
+}
+.btn-success{
+    background-color: green!important;
+}
+.btn-danger{
+    background-color: red;
+}
